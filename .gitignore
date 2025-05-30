@@ -1,0 +1,53 @@
+# Ignorar arquivos de configuração sensíveis
+.env
+
+# Ignorar node_modules (dependências instaladas)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de build e pastas geradas
+dist/
+build/
+out/
+coverage/
+
+# Ignorar arquivos de lock de dependências (opcional, dependendo do gerenciador de pacotes)
+# Descomente se usar yarn ou pnpm
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignorar arquivos gerados pelo editor/IDE
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup ou temporários
+*.bak
+*.tmp
+*.temp
+
+# Ignorar arquivos de banco de dados locais (se aplicável)
+*.sqlite
+*.db
+
+# Ignorar pastas de testes ou relatórios (se aplicável)
+test-reports/
+jest-coverage/
+
+# Ignorar arquivos de documentação gerada (se aplicável)
+docs/
+
+# Ignorar arquivos de certificados ou chaves (se aplicável)
+*.pem
+*.key
