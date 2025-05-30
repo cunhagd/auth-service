@@ -12,8 +12,8 @@ const app = express();
 // E também a URL de desenvolvimento local.
 const allowedOrigins = [
   'https://smi.up.railway.app', // Sua URL de frontend em produção
-  process.env.FRONTEND_URL,    // URL configurada via variável de ambiente (se existir)
-  'http://localhost:8080',     // Para desenvolvimento local
+  process.env.FRONTEND_URL, 
+  'http://localhost:8080',   // URL configurada via variável de ambiente (se existir)
   'http://127.0.0.1:8080'     // Outra comum para desenvolvimento local
 ].filter(Boolean); // Isso remove quaisquer valores undefined/null se FRONTEND_URL não estiver definida
 

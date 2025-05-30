@@ -51,3 +51,5 @@ docs/
 # Ignorar arquivos de certificados ou chaves (se aplicável)
 *.pem
 *.key
+
+package-lock.json
