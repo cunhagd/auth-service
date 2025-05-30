@@ -64,7 +64,7 @@ app.listen(PORT, () => {
     console.warn("Atenção: A variável de ambiente FRONTEND_URL não está definida. Usando fallbacks para CORS.");
   }
   if (!process.env.JWT_SECRET) {
-    console.error("ERRO CRÍTICO: Variável de ambiente JWT_SECRET não está definida! O serviço não funcionará corretamente.");
+    console.error("ERRO CRÍTICO: A variável de ambiente JWT_SECRET não está definida! O serviço não funcionará corretamente.");
     // Em um cenário real, você poderia querer impedir o servidor de iniciar sem JWT_SECRET.
     // process.exit(1);
   }
